@@ -1,34 +1,516 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Hemanth's Website</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hemanth Reddy K | Business Consulting & Analytics</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f5f7fa;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #d1d5db;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #111827;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #e5edff;
+            color: #1e40af;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .job {
+            margin-bottom: 35px;
+        }
+
+        .job-title {
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .date {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #111827;
+            color: #d1d5db;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            section {
+                padding: 25px 20px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+        }
+
+    </style>
 </head>
+
 
 <body>
 
-    <h1>Hello, I'm Hemanth 👋</h1>
+    <!-- HEADER -->
 
-    <p>Welcome to my first website!</p>
+    <header>
 
-    <h2>About Me</h2>
+        <h1>Hemanth Reddy K</h1>
 
-    <p>
-        I am learning how to build websites and use GitHub.
-        This is my first website project.
-    </p>
+        <p>Assistant Director – Business Consulting</p>
 
-    <h2>My Skills</h2>
+        <p>Analytics | Banking | Data | Business Consulting</p>
 
-    <ul>
-        <li>SQL</li>
-        <li>Python</li>
-        <li>Data Analytics</li>
-        <li>Power BI</li>
-    </ul>
+    </header>
 
-    <h2>Contact</h2>
 
-    <p>Email: hemanth@example.com</p>
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <a href="#about">About</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <div class="container">
+
+
+        <!-- ABOUT -->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a business consulting and analytics professional
+                with 8 years of experience across banking, liquidity,
+                risk, fraud, credit cards, supply chain and ESG domains.
+            </p>
+
+            <p>
+                I work across business and technology teams to build
+                scalable data solutions, analytics frameworks and
+                visualization dashboards that help business leaders
+                make informed decisions.
+            </p>
+
+            <p>
+                My experience includes Python, PySpark, SQL, SAS,
+                ETL processes, data analytics and business consulting.
+            </p>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+
+        <section id="experience">
+
+            <h2>Experience</h2>
+
+
+            <div class="job">
+
+                <h3>HSBC</h3>
+
+                <p class="job-title">
+                    Assistant Director – Business Consulting
+                </p>
+
+                <p class="date">
+                    Jul 2021 – Present
+                </p>
+
+                <h3>Global Liquidity</h3>
+
+                <ul>
+
+                    <li>
+                        Grew Global Liquidity from a solo build into
+                        a 10-person cross-functional team of engineers,
+                        architects and analysts.
+                    </li>
+
+                    <li>
+                        Built a daily refreshed multi-layered ETL
+                        pipeline consolidating account balances,
+                        interest rates and liquidity structures
+                        across approximately 3 million accounts per day.
+                    </li>
+
+                    <li>
+                        Maintained data quality and aligned country
+                        teams and product owners on unified interest
+                        rate logic.
+                    </li>
+
+                    <li>
+                        Surfaced $53M in incorrectly paid interest
+                        within six months of launch through balance
+                        and rate trend analysis.
+                    </li>
+
+                    <li>
+                        Managed project scope, budgeting and
+                        resourcing requirements.
+                    </li>
+
+                </ul>
+
+
+                <h3>ESG & Supply Chain</h3>
+
+                <ul>
+
+                    <li>
+                        Designed a Python-based ESG screening framework
+                        using fuzzy matching and entity resolution.
+                    </li>
+
+                    <li>
+                        Consolidated more than 1,800 raw attributes
+                        into 10 indicators using clustering.
+                    </li>
+
+                    <li>
+                        Integrated Bloomberg supply chain data with
+                        internal trade and client datasets.
+                    </li>
+
+                    <li>
+                        Insights from the framework contributed to
+                        onboarding 600+ new clients within the first
+                        three months.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="job">
+
+                <h3>Synchrony Financial</h3>
+
+                <p class="job-title">
+                    Senior Analyst – Credit Analytics
+                </p>
+
+                <p class="date">
+                    Feb 2019 – Jul 2021
+                </p>
+
+                <p>
+                    Worked within the Fraud MIS Reporting team
+                    supporting fraud analytics and forecasting.
+                </p>
+
+                <ul>
+
+                    <li>
+                        Forecasted quarterly fraud losses within a
+                        2% margin of error using SAS-based predictive
+                        modelling.
+                    </li>
+
+                    <li>
+                        Improved forecasting through data cleansing
+                        and trend analysis.
+                    </li>
+
+                    <li>
+                        Identified high-risk gas station locations
+                        using credit card transaction patterns.
+                    </li>
+
+                    <li>
+                        Built Tableau dashboards and geospatial
+                        heat maps to support fraud investigations.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="job">
+
+                <h3>Accenture</h3>
+
+                <p class="job-title">
+                    Associate Software Engineer
+                </p>
+
+                <p class="date">
+                    May 2018 – Aug 2018
+                </p>
+
+                <p>
+                    Gained exposure to COBOL and Mainframe systems
+                    and legacy enterprise technologies.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <div class="skills">
+
+                <span class="skill">Python</span>
+
+                <span class="skill">PySpark</span>
+
+                <span class="skill">SAS</span>
+
+                <span class="skill">SQL</span>
+
+                <span class="skill">Excel</span>
+
+                <span class="skill">Tableau</span>
+
+                <span class="skill">Qlik</span>
+
+                <span class="skill">Power BI</span>
+
+                <span class="skill">Alteryx</span>
+
+                <span class="skill">Prophecy</span>
+
+                <span class="skill">ETL</span>
+
+                <span class="skill">Data Analytics</span>
+
+                <span class="skill">Business Consulting</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <h3>B.Tech – Electronics & Communication Engineering</h3>
+
+            <p>2014 – 2018</p>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+
+        <section>
+
+            <h2>Certifications</h2>
+
+            <ul>
+
+                <li>Python – University of Michigan (Coursera)</li>
+
+                <li>SAS – Coursera</li>
+
+                <li>Tableau</li>
+
+                <li>SQL</li>
+
+                <li>JIRA</li>
+
+                <li>Power BI – Coursera</li>
+
+                <li>Prompt Engineering – Coursera</li>
+
+                <li>Prophecy Data Transformation Copilot for Data Engineering – Udemy</li>
+
+                <li>Managing Project Stakeholders – LinkedIn</li>
+
+                <li>Responsible AI: Principles and Practical Applications – LinkedIn</li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact">
+
+            <h2>Contact</h2>
+
+            <p>
+                📍 Hyderabad, Telangana
+            </p>
+
+            <p>
+                📧
+                <a href="mailto:hemanthreddy0216@gmail.com">
+                    hemanthreddy0216@gmail.com
+                </a>
+            </p>
+
+            <p>
+                🔗
+                <a
+                    href="https://linkedin.com/in/hemanth-reddy-katkoori"
+                    target="_blank">
+                    LinkedIn
+                </a>
+            </p>
+
+        </section>
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Hemanth Reddy K
+        </p>
+
+        <p>
+            Built with HTML & CSS
+        </p>
+
+    </footer>
+
 
 </body>
+
 </html>
